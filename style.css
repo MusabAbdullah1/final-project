@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
 
 
 *{
@@ -181,12 +181,15 @@ section{
     margin-bottom: 1rem;
     font-weight: 800;
     text-shadow: 1px 1px 1px #474747;
+    text-align: center;
 }
 
 .home-text .marsbtn{
     margin-top: 1rem;
     height: 35px;
     line-height: 35px;
+    position: relative;
+    left: 13rem;
 }
 
 span{
@@ -329,6 +332,149 @@ img.moon-light{
     height: 35px;
     line-height: 35px;
 }
+
+
+ /* -------------------shope section css------------------- */
+
+.shop .flight-box{
+    text-align: left;
+    width: 210px;
+}
+.shop .flight-box{
+    animation: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    filter:none;
+}
+
+.shop .flight-box .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.shop .flight-box .prise{
+    color: var(--hover-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shop-btn{
+    text-align: center;
+}
+
+.shop-btn .marsbtn{
+    height: 40px;
+    line-height: 40px;
+}
+
+
+ /* -------------------experience section css------------------- */
+
+
+.experience .img-mission img{
+    width: 300px;
+}
+
+.experience .circle-animate{
+    position: absolute;
+    left: 27%;
+    width: 150px;
+    height: 150px;
+}
+
+
+ /* -------------------Footer section css------------------- */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem 12% ;
+    color: #fff;
+    border-top: 1px solid #561389;
+}
+
+.container-foot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.container-foot .rightBox .social-media{
+    display: flex;
+
+}
+
+.container-foot .title{
+    font-size: 1.5rem;
+    color: var(--hover-color);
+    font-weight: 600;
+}
+
+.leftBox p{
+    padding: 25px 0;
+    line-height: 1.5rem;
+}
+
+.social-media{
+    font-size: 1.5rem;
+}
+
+.social-media a:hover{
+    color: var(--hover-color);
+}
+
+.social-media li{
+   margin-right: 1rem;
+   margin-top:2rem ; 
+}
+
+.Quick-menu li{
+    margin-top: 1rem;
+}
+
+.Quick-menu li a:hover{
+    color: var(--hover-color);
+}
+
+.info li{
+    display: flex ;
+    margin:  1.5rem 1rem 1rem 0;
+    column-gap: 5px;
+}
+
+
+
+
+.copyRight{
+    padding: 1.5rem 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 1px solid rgba(117,117,117,0.3);
+}
+.copyRight a{
+    display: inline-flex;
+    align-items: center;
+    background: var(--hover-color);
+    border-radius: 50%;
+    padding: 10px;
+    color: #000;
+}
+
+ /* -------------------sticky header css------------------- */
+
+header.sticky{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 9px 12%;
+    border-bottom: 1px solid #3e0e62;
+}
+
+
 
 
 
