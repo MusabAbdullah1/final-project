@@ -48,9 +48,9 @@ window.onscroll =() => {
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
-            entry.target.classList.add("show-item");
+            entry.target.classList.add("show-items");
         }else{
-            entry.target.classList.remove("show-item")
+            entry.target.classList.remove("show-items")
         }
 
     });
