@@ -58,3 +58,26 @@ const observer = new IntersectionObserver((entries)=>{
 
 const scrollLeft = document.querySelectorAll(".scroll-left");
 scrollLeft.forEach((el)=>observer.observe(el));
+
+
+
+const scrollRight = document.querySelectorAll(".scroll-right");
+scrollRight.forEach((el)=>observer.observe(el));
+
+
+
+const scrollTop = document.querySelectorAll(".scroll-top");
+scrollTop.forEach((el)=>observer.observe(el));
+
+
+
+
+const scrollBottom = document.querySelectorAll(".scroll-bottom");
+scrollBottom.forEach((el)=>observer.observe(el));
+
+
+const scrollScale = document.querySelectorAll(".scroll-scale");
+scrollScale.forEach((el)=>observer.observe(el));
+
+
+

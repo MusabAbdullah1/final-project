@@ -365,6 +365,7 @@ img.moon-light{
 
 .shop-btn{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .shop-btn .marsbtn{
@@ -484,13 +485,35 @@ header.sticky{
 
 .scroll-left{
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateX(10px);
+}
+
+.scroll-right{
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.scroll-top{
+    opacity: 0;
+    transform: translateY(-50px);
+}
+
+.scroll-bottom{
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+
+.scroll-scale{
+    opacity: 0;
+    transform: scale(.8);
 }
 
 .show-items{
     opacity: 1;
     transform: translateX(0);
-    transition: all .3s;
+    transform: translateY(0);
+    transition: all 2s;
 }
 
 
@@ -636,6 +659,18 @@ header.sticky{
     .copyRight p {
         margin-bottom: 1rem;
     }
+    .container .flight-box{
+        width: 60%;
+    }
+        .earth-rotate img.earth{
+        display:  none;
+    }
+    .circle-animate{
+        width: 150px;
+        height: 150px;
+        left: 12%;
+    }
+
 }
 
 
