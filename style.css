@@ -343,6 +343,8 @@ img.moon-light{
 .shop .flight-box{
     text-align: left;
     width: 210px;
+    text-align: center;
+
 }
 .shop .flight-box{
     animation: none;
@@ -355,17 +357,21 @@ img.moon-light{
     font-weight: 700;
     letter-spacing: 1px;
     margin: 5px 0;
+    text-align: center;
 }
 
 .shop .flight-box .prise{
     color: var(--hover-color);
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+
 }
 
 .shop-btn{
     text-align: center;
     margin-top: 2rem;
+    align-items: center;
 }
 
 .shop-btn .marsbtn{
