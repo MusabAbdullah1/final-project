@@ -7,18 +7,26 @@
   text-decoration: none;
   list-style: none;
 }
+:root{
+  --color-text: #cdc6c3;
+  --hover-color: #70efbf;
+  --neon-box-shadow: 0 0 .5rem #70efbf;
+  --index: calc(1vw + 1vh);
+}
+
 ::selection{
   color: #fff;
   background:#ae2f9b; 
 }
 body{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),#630e7d3c), url(img/background.jpg);
-    height: 100%;
+        /* background:linear-gradient(rgba(0, 0, 0, 0.5),#630e7d3c), url(img/background.jpg); */
+        height: 100%;
         width: 100%;
-        background-color: #9044a7;
+        background-color: #450358 ;
         background-size: cover;
         background-position: center;
         position: absolute;
+        background-repeat: no-repeat;
  
 }
 
@@ -151,6 +159,7 @@ header .navlist{
   font-size: 22px;
   font-weight: 500;
   margin: 20px 0;
+  text-align: center;
 }
 .select-box .options{
   display: flex;
@@ -324,4 +333,38 @@ header .navlist{
 }
 
 
- /* -------------------Footer section css------------------- */
+@media(max-width:503px){
+  .copyRight{
+      display: block;
+      text-align: center;
+  }
+  .Quick-menu li {
+      margin-top: .1rem;
+  }
+  
+  
+  .copyRight p {
+      margin-bottom: 1rem;
+  }
+  .container .flight-box{
+      width: 60%;
+  }
+      .earth-rotate img.earth{
+      display:  none;
+  }
+  .circle-animate{
+      width: 150px;
+      height: 150px;
+      left: 12%;
+  }
+  body{
+    font-family: "outfit",sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+
+}

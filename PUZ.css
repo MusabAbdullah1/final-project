@@ -8,6 +8,13 @@
   text-decoration: none;
   list-style: none;
 }
+:root{
+  --color-text: #cdc6c3;
+  --hover-color: #70efbf;
+  --neon-box-shadow: 0 0 .5rem #70efbf;
+  --index: calc(1vw + 1vh);
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -15,7 +22,8 @@ body {
   justify-content: center;
   height: 100%;
         width: 100%;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.5),#630e7d3c), url(img/background.jpg);
+        /* background-image:linear-gradient(rgba(0, 0, 0, 0.5),#630e7d3c), url(img/background.jpg); */
+        background-color: #450358;
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -33,6 +41,7 @@ header{
   justify-content: space-between;
   z-index: 1000;
 }
+
 .logo{
   display: flex;
   align-items: center;
