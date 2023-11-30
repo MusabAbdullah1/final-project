@@ -357,14 +357,11 @@ header .navlist{
       height: 150px;
       left: 12%;
   }
-  body{
-    font-family: "outfit",sans-serif;
-    background-image: url(img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* overflow: hidden; */
-}
-
+ 
+  .select-box .play-board .result-box{
+    max-width: fit-content;
+    width: 100%;
+    height: 25rem;
+  }
 
 }
