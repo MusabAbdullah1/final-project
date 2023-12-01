@@ -478,8 +478,9 @@ a:focus {
   margin-left: 65px;
 }
 
-.who_section .detail-box p {
-  margin-top: 35px;
+.who_section .detail-box p ,h6  {
+  margin-top: 10px;
+  text-align: center;
 }
 
 .who_section .detail-box a {
@@ -1028,5 +1029,10 @@ footer{
       height: 150px;
       left: 12%;
   }
+  .who_section .detail-box p ,h6  {
+    margin-right: 60px;
+    text-align: center;
+  }
+  
 
 }
