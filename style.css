@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
 
@@ -42,8 +45,14 @@ body{
 
 a{
     color: #fff;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
 
+p{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
+}
 header{
     position: fixed;
     left: 0;
@@ -128,7 +137,9 @@ header .navlist{
     display: inline-block;
     color: #000;
     align-items: center;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
+
 
 .marsbtn:hover{
     background: linear-gradient(180deg , #12bd7b 0 ,#21e69a 100%);
@@ -183,6 +194,7 @@ section{
     font-weight: 800;
     text-shadow: 1px 1px 1px #474747;
     text-align: center;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 
 .home-text .marsbtn{
@@ -259,6 +271,8 @@ img.moon-light{
     color: #dddcdc;
     line-height: 1.5rem;
     font-size: .9rem;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
  }
 
  .flight-box .marsbtn{
@@ -367,6 +381,8 @@ img.moon-light{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 
 }
 

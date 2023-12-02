@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
+
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -39,7 +47,18 @@ body {
 
 a{
   color: #fff;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
+p{
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
+}
+
+h5 , span{
+  font-family: 'Changa', sans-serif;
+}
+
 
 /* ------------------------------------------------------------------------------------------- */
 header.sticky{
@@ -155,6 +174,8 @@ header .navlist{
   display: inline-block;
   color: #000;
   align-items: center;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
 
 .marsbtn:hover{
@@ -189,6 +210,9 @@ section{
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  font-family: 'Changa', sans-serif;
+
+
 }
 
 .heading_container h2::before, .heading_container h2::after {
@@ -298,6 +322,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
+  font-family: 'Changa', sans-serif;
 }
 
 .navbar-brand {
@@ -349,14 +374,18 @@ a:focus {
 .slider_section .detail-box h1 {
   font-size: 4rem;
   text-transform: uppercase;
-}
+  font-family: 'Changa', sans-serif;}
+
+
 
 .slider_section .detail-box h2 {
   text-transform: uppercase;
+  font-family: 'Changa', sans-serif;
 }
 
 .slider_section .detail-box p {
   margin-top: 25px;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 
 .slider_section .detail-box a {
@@ -411,6 +440,7 @@ a:focus {
   position: relative;
   z-index: 5;
   margin: 35px 25px 0 25px;
+  
 }
 
 .do_section .do_container .box .img-box {
@@ -427,6 +457,7 @@ a:focus {
           align-items: center;
   background-color: #353434;
   border-radius: 100%;
+  
 }
 
 .do_section .do_container .box .img-box img {
@@ -435,6 +466,7 @@ a:focus {
 
 .do_section .do_container .box .detail-box {
   margin-top: 35px;
+  
 }
 
 .do_section .do_container .box:hover .img-box {
@@ -481,6 +513,8 @@ a:focus {
 .who_section .detail-box p ,h6  {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
 
 .who_section .detail-box a {
@@ -781,6 +815,7 @@ a:focus {
 
 .info_section .info_contact p {
   margin: 0;
+
 }
 
 .info_section .info_contact > div {

@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Changa:wght@500&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 
@@ -77,14 +83,20 @@ h3 {
  text-align:center;
 
   color: #fefefe;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
   
 }
 p{
   
     text-align: center;
     color: #fefefe;
- 
-  
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
+}
+a{
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
 form {
   max-width: 600px;

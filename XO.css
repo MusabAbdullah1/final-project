@@ -114,6 +114,8 @@ header .navlist{
   display: inline-block;
   color: #000;
   align-items: center;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+
 }
 
 .marsbtn:hover{
